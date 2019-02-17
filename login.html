@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>ログイン</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        ユーザーID : <input type="text" name="userId" value="" />
+      </div>
+      <div>
+        パスワード : <input type="password" name="password" value="" />
+      </div>
+      <div>
+        <button id="loginButton">ログイン</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    document
+      .getElementById('loginButton')
+      .addEventListener('click', () => window.location = './top.html')
+  </script>
+</html>
