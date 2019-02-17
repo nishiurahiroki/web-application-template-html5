@@ -2,4 +2,4 @@
 TODO CRUD appllication.
 
 ## entry point.
-`./login.html`
+`./index.html`
