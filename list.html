@@ -40,11 +40,19 @@
             <td>sample todo</td>
             <td>sample discription</td>
             <td>sample update</td>
-            <td><button>詳細</button></td>
+            <td><button name="detailButton">詳細</button></td>
             <td><button>削除</button></td>
           </tr>
         </tbody>
       </table>
     </div>
+
+    <script type="text/javascript">
+      Array
+        .from(
+          document.querySelectorAll('[name=detailButton]'),
+          button => button.addEventListener('click', () => window.location = './detail.html')
+        )
+    </script>
   </body>
 </html>
